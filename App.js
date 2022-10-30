@@ -30,7 +30,7 @@ export default function App() {
       <View style={styles.goalsContainer}>
         <FlatList
           data={goals}
-          renderItem={(itemData) => <GoalItem />}
+          renderItem={(itemData) => <GoalItem text={itemData.item.text} />}
           keyExtractor={(item) => item.id}
         />
       </View>
