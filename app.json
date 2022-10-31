@@ -6,6 +6,7 @@
     "owner": "edsonjmv",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
+    "backgroundColor": "#1e085a",
     "userInterfaceStyle": "light",
     "splash": {
       "image": "./assets/splash.png",
